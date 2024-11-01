@@ -1,0 +1,53 @@
+#pageShareStatsWidget{
+	color: #1EB3D4;
+	text-align:center;
+}
+	#pageShareStatsWidget strong{
+		display:block;
+		font-size:25px;
+		line-height:30px;
+		color:#5F5C5C;
+	}
+	#pageShareStatsWidget .total{margin-top:-15px;}
+
+#pageShareStats {
+  list-style: none;
+  margin: 0;
+}
+
+	#pageShareStats li{display:inline-block; padding:10px}
+	#pageShareStats .i-wrapper{
+		width: 54px;
+		height: 54px;
+		background-color: #C3D21E;
+		-webkit-border-radius: 27px;
+		-moz-border-radius: 27px;
+		border-radius: 27px;
+		display:block;
+	}
+	#pageShareStats .fa {
+		font-size:30px;
+		line-height: 54px;
+	}
+
+#pageShareStats .stat-icon {
+	width: 64px;
+	height: 64px;
+	display: block;
+	margin-left: 8px;
+	/* background: transparent url(icons-sprite.png) left top no-repeat; this is currently disabled */
+	background-color: #b9d640;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+}
+	/*
+	#pageShareStats .icon-facebook{background-position: 0 0; }
+	#pageShareStats .icon-twitter{background-position: -390px 0;}
+	#pageShareStats .icon-google-plus{background-position: -65px 0;}
+	#pageShareStats .icon-linkedin{background-position: -130px 0;}
+	#pageShareStats .icon-pinterest{background-position: -195px 0;}
+	#pageShareStats .icon-reddit{background-position: -260px 0;}
+	#pageShareStats .icon-stumbleupon{background-position: -325px 0;}
+	*/
